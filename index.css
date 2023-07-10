@@ -5,6 +5,10 @@ body {
 
 .wrapper {
 	font-family: "Inter", sans-serif;
+	font-family: "Inter", sans-serif;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 .container {
@@ -12,6 +16,7 @@ body {
 	justify-content: space-between;
 	padding: 84px 136px;
 	background-color: #ffcd9e;
+	flex-grow: 1;
 }
 
 .content {
